@@ -16,6 +16,7 @@ public class VacationcalcController {
             @RequestParam double avgSalary,
             @RequestParam int vacationDays,
             @RequestParam(required = false) String startDate){
-        return this.service.calculateVacationPay(avgSalary, vacationDays);
+
+        return this.service.calculateVacationPay(avgSalary, vacationDays, startDate);
     }
 }
