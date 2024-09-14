@@ -1,10 +1,8 @@
 package ru.iguana.vacationcalc;
 
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import java.time.LocalDate;
 import java.time.MonthDay;
 import java.util.HashSet;
 import java.util.Set;
