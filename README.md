@@ -24,7 +24,7 @@ mvn clean install
 
 ▎Запуск приложения
 
-mvn spring-boot:run
+java -jar target/vacationcalc-0.0.1-SNAPSHOT.jar
 
 После успешного запуска приложение будет доступно по адресу: http://localhost:8080.
 
