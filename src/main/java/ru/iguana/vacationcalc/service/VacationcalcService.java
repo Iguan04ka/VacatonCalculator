@@ -11,7 +11,7 @@ import java.util.Set;
 @Service
 public class VacationcalcService {
     @Autowired
-    public Set<MonthDay> holidays = new HashSet<>();
+    private final Set<MonthDay> holidays = new HashSet<>();
 
     public double calculateVacationPay(double salaryForYear, int vacationDays, String dayOfStartVacation){
         /*
